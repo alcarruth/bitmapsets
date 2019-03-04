@@ -2,7 +2,7 @@
 
 # test.coffee
 
-{ BitMap, BitMapSet } = require('./bitmapsets.coffee')
+{ BitMap, BitMapSet } = require('./bitmapsets')
 
 class Test
 

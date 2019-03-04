@@ -1,6 +1,6 @@
-# index.js
+// index.js
 
-# package bitmapsets
+// package bitmapsets
 
 lib = require('./lib/')
 
