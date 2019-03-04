@@ -39,7 +39,7 @@ and to retrieve an array containing the elements of a set.  These
 methods all require using the BitMap to get/set/test the apropriate
 bits of the bit string.
 
-Methods are also provide to perform set union, intersection, complement and
+Methods are also provided to perform set union, intersection, complement and
 difference.  These methods are provided in both mutator and operator form and
 utilize the underlying bit-wise operators to achieve their ends.
 
@@ -63,21 +63,14 @@ $ npm run build
 This will build the project files and install them in the `lib`
 subdirectory.
 
-```
-$ node src/tools/serve.js
-```
-
-
-### Project Overview and Usage
-
 
 ### CoffeeScript
 
-This site was built using [CoffeeScript](http://coffeescript.org/),
-both for generation of the javascript and for the build process.  Care
-was taken to ensure that meaningful comments survived the compilation
-process intact and that the produced JavaScript satisfied the style
-requirements and JSHint.
+This project built using [CoffeeScript](http://coffeescript.org/),
+for generation of the javascript from the Coffeescript source.
+Care was taken to ensure that meaningful comments survived the
+compilation process intact and that the produced JavaScript satisfied
+the style requirements and JSHint.
 
 It is my belief that this produced much more comprehensible code than
 using JavaScript straight away.  CoffeeScript offers a clean object
@@ -88,7 +81,7 @@ JavaScript approach.
 In particular, I believe the use of an unbound `this` reference is bad
 mojo. If you have a look at the CoffeeScript in this project, note
 that while constructors and a few simple functions are defined using
-the single arrow (`->`) all of the method definitions are defined
+CoffeeScript's single arrow (`->`) all of the method definitions are defined
 using the double arrow (`=>`) which binds `this` to the instance of
 the class being defined.
 
@@ -96,13 +89,8 @@ The binding of a function to its data structure is one of the major
 tenets of object-oriented programming.  It is the difference between a
 function and a method.
 
-### Architecture
-
-
-
-### Build Tools
-
 
 ### License
 
-The code in this repository is licensed under the [ISC](https://opensource.org/licenses/ISC) license of the Open Source Initiative.
+The code in this repository is licensed under the
+[MIT](https://github.com/alcarruth/bitmapsets/blob/version-1.0.0/LICENSE) license.
