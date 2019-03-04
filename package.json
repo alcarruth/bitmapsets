@@ -17,7 +17,7 @@
     "BigInt"
   ],
   "author": "Al Carruth",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "coffeescript": "^2.3.2"
   }
