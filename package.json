@@ -2,7 +2,7 @@
   "name": "bitmapsets",
   "version": "1.0.0",
   "description": "bitmapped sets for Javascript",
-  "repository": "https://armazilla.net/git/bitmapsets/",
+  "repository": "git@github.com:alcarruth/bitmapsets.git",
   "main": "index.js",
   "scripts": {
     "check": "which coffee",
